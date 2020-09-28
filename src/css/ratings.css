@@ -1,1 +1,22 @@
-/* No CSS *//*# sourceMappingURL=ratings.css.map */
+.ratings {
+  margin: 0 auto;
+  margin-bottom: 40px;
+  font-family: "Spartan", sans-serif;
+}
+
+.ratings__entry {
+  color: #502050;
+  background-color: #f7f2f7;
+  margin-bottom: 10px;
+  padding: 12px;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.ratings__entry__stars img {
+  margin: 5px;
+  margin-bottom: 10px;
+}
+/*# sourceMappingURL=ratings.css.map */
