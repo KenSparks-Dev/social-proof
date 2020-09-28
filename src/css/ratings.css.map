@@ -1,8 +1,9 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AAEA,AAAA,QAAQ,CAAC;EACP,MAAM,EAAE,MAAM;EACd,aAAa,EAAE,IAAI;EACnB,WAAW,ECCP,SAAS,EAAE,UAAU;CDgB1B;;AAfE,AAAD,eAAQ,CAAC;EACP,KAAK,ECRM,OAAO;EDSlB,gBAAgB,ECNA,OAAO;EDOvB,aAAa,EAAE,IAAI;EACnB,OAAO,EAAE,IAAI;EACb,aAAa,EAAE,GAAG;EAClB,UAAU,EAAE,MAAM;EAClB,WAAW,EAAE,GAAG;EAChB,SAAS,EAAE,IAAI;CAChB;;AAEA,AAAD,sBAAe,CAAC,GAAG,CAAC;EAClB,MAAM,EAAE,GAAG;EACX,aAAa,EAAE,IAAI;CACpB",
     "sources": [
-        "ratings.scss"
+        "ratings.scss",
+        "variables.scss"
     ],
     "names": [],
     "file": "ratings.css"
