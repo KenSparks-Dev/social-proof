@@ -1,1 +1,20 @@
-/* No CSS *//*# sourceMappingURL=maintext.css.map */
+.maintext {
+  color: #502050;
+  width: 95%;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 40px;
+  font-family: "Spartan", sans-serif;
+}
+
+.maintext h1 {
+  padding-bottom: 25px;
+  line-height: 35px;
+}
+
+.maintext p {
+  color: #937b92;
+  font-size: 13.5px;
+  line-height: 25px;
+}
+/*# sourceMappingURL=maintext.css.map */
