@@ -1,0 +1,12 @@
+@import 'variables';
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background:$light-grey-magenta;
+  width:80%;
+  margin: 0 auto;
+}
