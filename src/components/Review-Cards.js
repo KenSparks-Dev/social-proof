@@ -43,7 +43,9 @@ export class ReviewCards extends Component {
                 <span>{review.status}</span>
               </p>
             </div>
-            <p className="reviews__quote"><q> {review.review} </q></p>
+            <p className="reviews__quote">
+              <q> {review.review} </q>
+            </p>
           </div>
         ))}
       </div>
