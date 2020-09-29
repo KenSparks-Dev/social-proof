@@ -142,15 +142,16 @@
     }
 
     &__cards__user p {
-    padding-top: 16px;
-    line-height: 28px;
-    font-size: 18px;
-  }
+      padding-top: 16px;
+      line-height: 28px;
+      font-size: 18px;
+    }
 
-  &__cards__user span {
-    color: $soft-pink;
-    font-weight: 500;
-  }
+    &__cards__user span {
+      color: $soft-pink;
+      font-weight: 500;
+    }
+
     &__cards:nth-child(2) {
       margin-top: 25px;
     }

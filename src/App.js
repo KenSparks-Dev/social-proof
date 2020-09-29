@@ -8,8 +8,8 @@ function App() {
   return (
     <div className="App">
       <div className="App__section-one">
-          <Maintext />
-          <Ratings />
+        <Maintext />
+        <Ratings />
       </div>
       <div className="App__section-two">
         <Reviewcards />
