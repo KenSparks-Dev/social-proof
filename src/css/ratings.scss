@@ -1,6 +1,9 @@
 @import 'variables';
 
 .ratings {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
   margin: 0 auto;
   margin-bottom: 40px;
   font-family: $font;
@@ -20,4 +23,132 @@
     margin: 5px;
     margin-bottom: 10px;
   }
+}
+
+// MD devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .ratings {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    font-family: $font;
+
+    &__entry {
+      margin-bottom: 10px;
+      padding: 8px;
+      font-size: 20px;
+    }
+
+    &__entry__stars img {
+      margin: 8px;
+      margin-bottom: 12px;
+      width: 20px;
+    }
+  }
+}
+
+// LG devices (desktops, 1024px and up)
+@media (min-width: 1024px) {
+  .ratings {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    font-family: $font;
+
+    &__entry {
+      margin-bottom: 12px;
+      padding: 8px;
+      font-size: 24px;
+    }
+
+    &__entry__stars img {
+      margin: 10px;
+      margin-bottom: 10px;
+      width: 24px;
+    }
+  }
+}
+
+// XL devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+
+  .ratings {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 60px;
+    font-family: $font;
+
+    &__entry {
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 10px;
+      padding: 16px;
+      font-size: 14px;
+      align-items: baseline;
+      width: 400px;
+    }
+
+    &__entry:nth-child(2) {
+      margin-left: 55px;
+    }
+
+    &__entry:nth-child(3) {
+      margin-left: 110px;
+    }
+
+    &__entry__stars {
+      margin: 0 20px;
+    }
+
+    &__entry__stars img {
+      margin: 3px;
+      margin-bottom: 0px;
+      width: 14px;
+    }
+  }
+}
+
+// XXL devices (large desktops, 1400px and up)
+@media (min-width: 1400px) {
+.ratings {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 65px;
+    font-family: $font;
+
+    &__entry {
+      display: flex;
+      flex-direction: row;
+      margin: 10px 0px;
+      padding: 22px;
+      font-size: 16px;
+      align-items: baseline;
+      width: 420px;
+    }
+
+    &__entry:nth-child(2) {
+      margin-left: 55px;
+    }
+
+    &__entry:nth-child(3) {
+      margin-left: 110px;
+    }
+
+    &__entry__stars {
+      margin: 0 20px;
+    }
+
+    &__entry__stars img {
+      margin: 3px;
+      margin-bottom: 0px;
+      width: 18px;
+    }
+  }
+
 }

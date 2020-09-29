@@ -7,9 +7,13 @@ import "./css/App.css";
 function App() {
   return (
     <div className="App">
-      <Maintext/>
-      <Ratings/>
-      <Reviewcards/>
+      <div className="App__section-one">
+          <Maintext />
+          <Ratings />
+      </div>
+      <div className="App__section-two">
+        <Reviewcards />
+      </div>
     </div>
   );
 }

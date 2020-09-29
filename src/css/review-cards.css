@@ -54,4 +54,124 @@
   font-weight: 500;
   font-size: 15px;
 }
+
+@media (min-width: 768px) {
+  .reviews {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin: 0 auto;
+    font-family: "Spartan", sans-serif;
+  }
+  .reviews__cards {
+    padding: 25px;
+    margin: 0px 5px;
+  }
+  .reviews__cards__user {
+    font-weight: 700;
+    padding-bottom: 25px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .reviews__cards__user img {
+    width: 70px;
+    height: 70px;
+    margin-right: 20px;
+    margin-top: 10px;
+  }
+  .reviews__quote {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .reviews {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin: 0 auto;
+    font-family: "Spartan", sans-serif;
+  }
+  .reviews__cards {
+    padding: 25px;
+    margin-right: 20px;
+    width: 280px;
+    height: 190px;
+  }
+  .reviews__cards:nth-child(2) {
+    margin-top: 20px;
+  }
+  .reviews__cards:nth-child(3) {
+    margin-top: 40px;
+  }
+  .reviews__cards__user {
+    font-weight: 700;
+    padding-bottom: 25px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .reviews__cards__user img {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    margin-top: 10px;
+  }
+  .reviews__quote {
+    font-size: 12px;
+    line-height: 25px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .reviews {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin: 0 auto;
+    font-family: "Spartan", sans-serif;
+  }
+  .reviews__cards {
+    padding: 25px;
+    margin-right: 30px;
+    width: 400px;
+    height: 250px;
+  }
+  .reviews__cards__user p {
+    padding-top: 16px;
+    line-height: 28px;
+    font-size: 18px;
+  }
+  .reviews__cards__user span {
+    color: #ee68a4;
+    font-weight: 500;
+  }
+  .reviews__cards:nth-child(2) {
+    margin-top: 25px;
+  }
+  .reviews__cards:nth-child(3) {
+    margin-top: 50px;
+  }
+  .reviews__cards__user {
+    font-weight: 700;
+    padding-bottom: 25px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .reviews__cards__user img {
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+    margin-top: 10px;
+  }
+  .reviews__quote {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
 /*# sourceMappingURL=review-cards.css.map */

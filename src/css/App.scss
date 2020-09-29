@@ -6,7 +6,77 @@
 }
 
 body {
-  background:$white;
-  width:80%;
+  background: $white;
+  width: 85%;
   margin: 0 auto;
+}
+
+.App {
+  width: 90%;
+  margin: 0 auto;
+
+  &__section-one {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__section-two {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+// MD devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  body {
+    background: $white;
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+// LG devices (desktops, 1024px and up)
+@media (min-width: 1024px) {}
+
+// XL devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  body {
+    width: 95%;
+  }
+
+  .App {
+
+    &__section-one {
+      display: flex;
+      flex-direction: row;
+      margin: 10px 0px 5px 0px;
+    }
+
+    &__section-two {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
+
+// XXL devices (large desktops, 1400px and up)
+@media (min-width: 1400px) {
+body {
+    width: 90%;
+  }
+
+  .App {
+
+    &__section-one {
+      display: flex;
+      flex-direction: row;
+      margin: 40px 0px 5px 0px;
+    }
+
+    &__section-two {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
 }
