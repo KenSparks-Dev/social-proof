@@ -60,15 +60,15 @@
     font-family: $font;
 
     &__entry {
-      margin-bottom: 10px;
-      padding: 12px;
-      font-size: 32px;
+      margin-bottom: 12px;
+      padding: 8px;
+      font-size: 24px;
     }
 
     &__entry__stars img {
-      margin: 12px;
-      margin-bottom: 12px;
-      width: 32px;
+      margin: 10px;
+      margin-bottom: 10px;
+      width: 24px;
     }
   }
 }
@@ -126,10 +126,10 @@
       display: flex;
       flex-direction: row;
       margin: 10px 0px;
-      padding: 15px;
-      font-size: 14px;
+      padding: 22px;
+      font-size: 16px;
       align-items: baseline;
-      width: 400px;
+      width: 420px;
     }
 
     &__entry:nth-child(2) {
@@ -147,7 +147,7 @@
     &__entry__stars img {
       margin: 3px;
       margin-bottom: 0px;
-      width: 16px;
+      width: 18px;
     }
   }
 
