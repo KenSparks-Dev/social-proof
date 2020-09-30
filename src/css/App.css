@@ -46,6 +46,9 @@ body {
   body {
     width: 95%;
   }
+  .App {
+    max-width: 1372px;
+  }
   .App__section-one {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -70,6 +73,9 @@ body {
 @media (min-width: 1400px) {
   body {
     width: 90%;
+  }
+  .App {
+    max-width: 1500px;
   }
   .App__section-one {
     display: -webkit-box;
