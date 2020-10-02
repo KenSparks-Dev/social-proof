@@ -1,5 +1,5 @@
 import React from "react";
-import Reviewcards from "./components/Review-Cards";
+import ReviewsCards from "./components/Review-Cards";
 import Maintext from "./components/MainText";
 import Ratings from "./components/Ratings";
 import "./css/App.css";
@@ -12,7 +12,7 @@ function App() {
         <Ratings />
       </div>
       <div className="App__section-two">
-        <Reviewcards />
+        <ReviewsCards />
       </div>
     </div>
   );
